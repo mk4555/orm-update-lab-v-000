@@ -11,4 +11,7 @@ class Student
    @id = nil
  end
 
+ def self.create_table
+   
+ end
 end
