@@ -30,7 +30,7 @@ class Student
  end
 
  def save
-   if self[0].id != nil
+   if self.id != nil
      self.update
    else
      sql = <<-SQL
