@@ -31,6 +31,7 @@ class Student
 
  def save
    if self.id
+     puts "NOT PROBLEM"
      self.update
    else
      sql = <<-SQL
